@@ -16,8 +16,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello World 101-101
-        uses: la-cc/gh-action-hello-world@v0.0.3
+        uses: la-cc/gh-action-hello-world@v0.0.4
         with:
-          custom-text: "Hi, my name is XY!"
+          custom-text: "Hi, my name is 101-101!"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
